@@ -423,6 +423,8 @@
     </div>
   </section>
 
+  
+
   <!-- 03 CONSTRUCTION -->
   <section class="project-category" id="construction">
 
@@ -675,6 +677,70 @@
   </div>
 
 </div>
+</section>
+
+<!-- =====================================================================
+ LAYOUT PROMOTION VIDEOS (3 portrait videos, click to play)
+ 1) Add the CSS (reels.css) to css/style.css or link it in <head>
+ 2) Add the JS (reels.js) to js/script.js or link it before </body>
+ 3) Paste this section into index.html, for example right after the "LAYOUT: AREAS" section.
+ Videos go in /images:  layout-video-1.mp4, layout-video-2.mp4, layout-video-3.mp4   (9:16 portrait)
+ Optional cover pictures: layout-video-1.jpg, layout-video-2.jpg, layout-video-3.jpg
+ To show only 2 videos, delete one <article class="vr-card"> block.
+ ===================================================================== -->
+<section class="vr" id="videos" aria-labelledby="vrTitle">
+  <span class="vr-glow g1"></span><span class="vr-glow g2"></span>
+  <div class="vr-wrap">
+    <div class="vr-head" data-vr>
+      <span class="vr-eyebrow">Watch &amp; Explore</span>
+      <h2 id="vrTitle">Our layouts <em>in motion</em></h2>
+      <p>Tap a video to play it. Tap again to pause.</p>
+    </div>
+
+    <div class="vr-row" id="vrRow">
+
+      <!-- VIDEO 1 -->
+      <article class="vr-card" data-vr style="--d:0s">
+        <div class="vr-ring"><div class="vr-frame">
+          <video class="vr-video" src="images/layout-video-1.mp4#t=0.1" poster="images/layout-video-1.jpg" preload="metadata" playsinline webkit-playsinline></video>
+          <span class="vr-notch"></span><span class="vr-badge">▶ REEL</span>
+          <button class="vr-hit" type="button" aria-label="Play video: Layout Promotion 1"><span class="vr-big"><i>▶</i></span></button>
+          <div class="vr-eq" aria-hidden="true"><u></u><u></u><u></u><u></u></div>
+          <div class="vr-ui"><button class="vr-btn vr-pp" type="button" aria-label="Pause">❚❚</button><div class="vr-bar"><i></i></div><button class="vr-btn vr-mute" type="button" aria-label="Mute">🔊</button><button class="vr-btn vr-fs" type="button" aria-label="Full screen">⛶</button></div>
+          <div class="vr-miss">Add images/layout-video-1.mp4</div>
+        </div></div>
+        <h4>Layout Promotion 1</h4><p>Tap to play</p>
+      </article>
+
+      <!-- VIDEO 2 -->
+      <article class="vr-card" data-vr style="--d:.15s">
+        <div class="vr-ring"><div class="vr-frame">
+          <video class="vr-video" src="images/layout-video-2.mp4#t=0.1" poster="images/layout-video-2.jpg" preload="metadata" playsinline webkit-playsinline></video>
+          <span class="vr-notch"></span><span class="vr-badge">▶ REEL</span>
+          <button class="vr-hit" type="button" aria-label="Play video: Layout Promotion 2"><span class="vr-big"><i>▶</i></span></button>
+          <div class="vr-eq" aria-hidden="true"><u></u><u></u><u></u><u></u></div>
+          <div class="vr-ui"><button class="vr-btn vr-pp" type="button" aria-label="Pause">❚❚</button><div class="vr-bar"><i></i></div><button class="vr-btn vr-mute" type="button" aria-label="Mute">🔊</button><button class="vr-btn vr-fs" type="button" aria-label="Full screen">⛶</button></div>
+          <div class="vr-miss">Add images/layout-video-2.mp4</div>
+        </div></div>
+        <h4>Layout Promotion 2</h4><p>Tap to play</p>
+      </article>
+
+      <!-- VIDEO 3 -->
+      <article class="vr-card" data-vr style="--d:.3s">
+        <div class="vr-ring"><div class="vr-frame">
+          <video class="vr-video" src="images/layout-video-3.mp4#t=0.1" poster="images/layout-video-3.jpg" preload="metadata" playsinline webkit-playsinline></video>
+          <span class="vr-notch"></span><span class="vr-badge">▶ REEL</span>
+          <button class="vr-hit" type="button" aria-label="Play video: Layout Promotion 3"><span class="vr-big"><i>▶</i></span></button>
+          <div class="vr-eq" aria-hidden="true"><u></u><u></u><u></u><u></u></div>
+          <div class="vr-ui"><button class="vr-btn vr-pp" type="button" aria-label="Pause">❚❚</button><div class="vr-bar"><i></i></div><button class="vr-btn vr-mute" type="button" aria-label="Mute">🔊</button><button class="vr-btn vr-fs" type="button" aria-label="Full screen">⛶</button></div>
+          <div class="vr-miss">Add images/layout-video-3.mp4</div>
+        </div></div>
+        <h4>Layout Promotion 3</h4><p>Tap to play</p>
+      </article>
+
+    </div>
+    <div class="vr-cta" data-vr><button class="vr-enq" type="button" data-open-enquiry>Book a Site Visit</button></div>
+  </div>
 </section>
 
 <!-- FLOATING CONTACT BUTTONS -->
